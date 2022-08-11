@@ -1,0 +1,25 @@
+body {
+    color: #969696;
+}
+hr {
+    width: 40%;
+}
+
+.container .accordion-item .accordion-button {
+    background-color: rgb(236, 234, 234);
+    color: rgb(168, 83, 83);
+}
+
+.accordion-button:after {
+    content: none;
+}
+
+.container .accordion-item .accordion-button:hover {
+    color: rgb(185, 173, 173);
+    text-decoration: underline;
+}
+
+.container .accordion-item .accordion-button:active {
+    text-decoration: underline;
+    color: rgb(92, 24, 164);
+}
